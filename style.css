@@ -17,5 +17,25 @@ body {
 }
 
 .adoption-box {
+    border-top-style: solid;
+    border-top-width: 5px;
+    border-top-color: green;
     background-color: white;
+}
+
+.dog-grid {
+    
+}
+
+.dog-pane {
+
+}
+
+.dog-pic {
+
+}
+
+li {
+    width: auto;
+    background-color: rgb(140, 140, 252)violet;
 }
