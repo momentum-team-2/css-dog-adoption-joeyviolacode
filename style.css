@@ -10,7 +10,7 @@ body {
 }
 
 .main-content {
-    margin: 0px 10%;
+    margin: 0px 173px 40px 173px;
     /* border-style: solid;
     border-color: black;
     border-width: solid; */
@@ -24,8 +24,10 @@ body {
 
 .adoption-box {
     border-top-style: solid;
-    border-top-width: 5px;
-    border-top-color: green;
+    border-bottom-style: solid;
+    border-top-width: 3px;
+    border-bottom-width: 3px;
+    border-color: green;
     background-color: white;
     padding: 30px;
 }
@@ -41,14 +43,14 @@ body {
     border-width: 2px;
     border-color: rgb(45, 27, 165);
     border-radius: 10px;
-    width: 244px;
-    height: 320px;
-    margin: 5px;
+    width: 304px;
+    height: 400px;
+    margin: 20px;
 }
 
 .dog-pic {
-    width: 240px;
-    height: 162px;
+    width: 300px;
+    height: 213px;
     border-radius: 8px 8px 0px 0px;
     border-bottom-width: 2px;
     border-bottom-style: solid;
@@ -67,9 +69,73 @@ ul {
 li {
     display: inline-block;
     width: auto;
-    background-color: rgb(140, 140, 252);
+    background-color: rgba(45, 27, 165, .25);
     border-radius: 5px;
     padding: 2px 5px 2px 5px;
     margin: 0px 2px;
     font-size: 14px;
+}
+
+.bottom-nav {
+    display: flex;
+    
+}
+
+.nav-button {
+    height: 300px;
+    width: 33.3333333333%;
+}
+
+.donate {
+    background-image: linear-gradient(rgba(45, 27, 165, .5), rgba(45, 27, 165, .5)),
+                        url("./starter_files/images/donate.jpg");
+    background-size: cover;
+    transition: .4s;
+}
+
+.donate:hover {
+    background: url("./starter_files/images/donate.jpg");
+    background-size: cover;
+}
+
+.volunteer {
+    background-image: linear-gradient(rgba(45, 27, 165, .5), rgba(45, 27, 165, .5)),
+                         url("./starter_files/images/volunteer.jpg");
+    background-size: cover;
+    transition: .4s;
+}
+
+.volunteer:hover {
+    background: url("./starter_files/images/volunteer.jpg");
+    background-size: cover;
+}
+
+.location {
+    background-image: linear-gradient(rgba(45, 27, 165, .5), rgba(45, 27, 165, .5)),
+                        url("./starter_files/images/location.png");
+    background-size: cover;
+    transition: background-image 3s;
+}
+
+.location:hover {
+    background-image: linear-gradient(rgba(45, 27, 165, 0), rgba(45, 27, 165, 0)),
+                        url("./starter_files/images/location.png");
+    background-size: cover;
+}
+
+.nav-button a {
+    color: white;
+    display: block;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    line-height: 300px;
+    font-size: 40px;
+    text-decoration: none;
+    transition: .6s;
+}
+
+.nav-button a:hover {
+    color: black;
+    -webkit-text-stroke: 1px grey;
 }
