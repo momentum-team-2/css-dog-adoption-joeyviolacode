@@ -1,3 +1,9 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: 'Oswald', sans-serif;
     background-color: rgb(230, 230, 230);
@@ -21,6 +27,7 @@ body {
     border-top-width: 5px;
     border-top-color: green;
     background-color: white;
+    padding: 30px;
 }
 
 .dog-grid {
@@ -28,14 +35,40 @@ body {
 }
 
 .dog-pane {
-
+    background-color: rgb(230, 230, 230);
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(45, 27, 165);
+    border-radius: 10px;
+    width: 244px;
+    height: 360px;
+    margin: 5px;
 }
 
 .dog-pic {
+    width: 240px;
+    height: 162px;
+    border-radius: 10px 10px 0px 0px;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-color: rgb(45, 27, 165);
+}
 
+.dog-info {
+    padding: 10px;
+    font-size: 20px;
+}
+
+ul {
+    padding-top: 10px;
 }
 
 li {
+    display: inline-block;
     width: auto;
-    background-color: rgb(140, 140, 252)violet;
+    background-color: rgb(140, 140, 252);
+    border-radius: 5px;
+    padding: 2px 5px 2px 5px;
+    margin: 0px 2px;
+    font-size: 14px;
 }
