@@ -11,15 +11,15 @@ body {
 
 .main-content {
     margin: 0px 10%;
-    border-style: solid;
+    /* border-style: solid;
     border-color: black;
-    border-width: solid;
+    border-width: solid; */
 }
 
 .main-header {
     color: white;
     background-color: rgb(45, 27, 165);
-    padding: 10px 30px
+    padding: 20px 30px
 }
 
 .adoption-box {
@@ -41,14 +41,14 @@ body {
     border-color: rgb(45, 27, 165);
     border-radius: 10px;
     width: 244px;
-    height: 360px;
+    height: 320px;
     margin: 5px;
 }
 
 .dog-pic {
     width: 240px;
     height: 162px;
-    border-radius: 10px 10px 0px 0px;
+    border-radius: 8px 8px 0px 0px;
     border-bottom-width: 2px;
     border-bottom-style: solid;
     border-color: rgb(45, 27, 165);
