@@ -11,9 +11,6 @@ body {
 
 .main-content {
     margin: 0px 173px 40px 173px;
-    /* border-style: solid;
-    border-color: black;
-    border-width: solid; */
 }
 
 .main-header {
@@ -46,6 +43,13 @@ body {
     width: 304px;
     height: 400px;
     margin: 20px;
+    transition: .5s ease-in-out;
+}
+
+.dog-pane:hover {
+    box-shadow: 5px 5px rgba(45, 27, 165, .5);
+    transform: scale(1.1);
+    transition: .5s ease-in-out;
 }
 
 .dog-pic {
@@ -114,7 +118,7 @@ li {
     background-image: linear-gradient(rgba(45, 27, 165, .5), rgba(45, 27, 165, .5)),
                         url("./starter_files/images/location.png");
     background-size: cover;
-    transition: background-image 3s;
+    transition: background-image .75s;
 }
 
 .location:hover {
@@ -132,10 +136,11 @@ li {
     line-height: 300px;
     font-size: 40px;
     text-decoration: none;
-    transition: .6s;
+    transition: .75s;
 }
 
 .nav-button a:hover {
     color: black;
     -webkit-text-stroke: 1px grey;
+    transition: .75s
 }
