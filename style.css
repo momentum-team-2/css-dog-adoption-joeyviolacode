@@ -31,7 +31,8 @@ body {
 }
 
 .dog-grid {
-    
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .dog-pane {
